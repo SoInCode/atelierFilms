@@ -1,0 +1,14 @@
+<h2>Liste des films</h2>
+<app-detail [titre]="title" [description]="plot"></app-detail>
+<section>
+    <div *ngFor="let film of films">
+        <h3>{{ film.Title }}</h3>
+        <button (click) = "modifierTitre(film.Title, film.Plot)">Détail</button>
+        <img src="{{ film.Images[0] }}">
+        {{film.Plot}}
+        <br>
+        <br>
+        Acteurs: {{film.Actors}}
+    </div>
+   
+</section>

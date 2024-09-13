@@ -1,0 +1,19 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    div{
+    width: 300px;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: blanchedalmond;
+    opacity: 0.8;
+    border-radius: 5%;
+        img{
+            width: 100%;
+        }
+        h3{
+            margin-block-start: 0.5em;
+        }
+}
+}
